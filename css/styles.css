@@ -22,8 +22,8 @@ li{
 h1{
     font-size: 4.5rem;
     position: absolute;
-    top:-5rem;
-    left:3rem;
+    top:-6rem;
+    left:2rem;
     text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 h2{
@@ -130,7 +130,7 @@ hr{
   text-shadow: rgba(165, 165, 165, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .numeros:hover{
-  color: rgb(251, 151, 238);
+  color: rgb(247, 80, 225);
 }
 .text{
   background-color: rgba(51, 44, 48, 0.753);
@@ -232,11 +232,11 @@ line-height: 0;
   
 .about_img-ul {
 overflow: hidden;
-width: 75vmin;
+width: 66vmin;
 height: 100vmin;
 }
 .about_img-ul  li {
-  width: 75vmin;
+  width: 66vmin;
   height: 100vmin;
   position: absolute;
   z-index: 1;
@@ -313,7 +313,6 @@ height: 450px;
 width: 350px;
 background-size: cover;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-transition: .5s;
 font-size: 20px;
 font-weight: 700;
 display: flex;
@@ -522,6 +521,9 @@ margin-top: 30px;
 .contacto_form{
     width: 50%;
 }
+.text_form{
+  margin-bottom: 20px;
+}
 .contacto_form form{
     display: flex;
     flex-direction: column;
@@ -537,6 +539,7 @@ margin-top: 30px;
     margin-bottom:15px;
 }
 .contacto_form textarea {
+  padding: 10px;
 	height: 150px;
   background-color:transparent;
   border-top: 1px solid transparent;
@@ -576,9 +579,15 @@ footer{
     color: white;
     text-decoration: underline;
 }
+.mapaDeSitio li a:hover{
+  color: var(--fucsia);
+}
 .footer_redes{
     display: flex;
     justify-content: space-between;
     width: 200px;   
     align-items: center;
+}
+.footer_redes a:hover{
+  transform: scale(1.3);
 }
